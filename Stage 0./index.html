@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gathoni's Profile Card</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <article data-testid="test-profile-card">
+        <div class="card-content">
+            <header class="card-header">
+                <figure data-testid="test-user-avatar">
+                    <img src="images/profile.jpeg" 
+                        alt="Profile picture of Grace Gathoni">
+                </figure>
+                
+                <div class="user-info">
+                    <h2 data-testid="test-user-name">Gathoni Karume</h2>
+                    <p data-testid="test-user-bio">
+                        Full-stack developer and UI/UX enthusiast with a passion for creating 
+                        beautiful, accessible web experiences. Coffee lover, open-source contributor, 
+                        and lifelong learner.
+                    </p>
+                    <div data-testid="test-user-time" id="current-time">Loading time...</div>
+                </div>
+            </header>
+
+            <nav data-testid="test-user-social-links" aria-label="Social media links">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Gathoni-K" 
+                        data-testid="test-user-social-github"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/gathoni-karume-43791b2aa/" 
+                        data-testid="test-user-social-linkedin"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section data-testid="test-user-hobbies">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Reading books</li>
+                    <li>Sewing and upcycling thrifted clothes</li>
+                    <li>Playing the saxophone</li>
+                    <li>Watching anime</li>
+                    <li>Experimenting with new recipes</li>
+                </ul>
+            </section>
+
+            <section data-testid="test-user-dislikes">
+                <h3>Dislikes</h3>
+                <ul>
+                    <li>Poorly documented code</li>
+                    <li>Traffic jams</li>
+                    <li>Cold coffee</li>
+                    <li>Inconsistent design systems</li>
+                </ul>
+            </section>
+        </div>
+    </article>
+
+    <script src="/script.js"></script>
+</body>
+</html>
