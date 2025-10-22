@@ -1,0 +1,19 @@
+.goals {
+    position: relative;
+    padding: 3rem 2rem;
+    margin: 2rem 0;
+    /* background: #ffa5f4;  */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+     /* Subtle card effect */
+    color: white;
+    line-height: 1.5;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 4px;
+    text-decoration: underline;
+}
