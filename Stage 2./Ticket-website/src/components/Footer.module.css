@@ -1,0 +1,57 @@
+.footer{
+    position: static;
+    background-color: rgb(176, 175, 175);
+    border-radius: 1.5rem;
+    padding: 16px;
+    margin-top: 20px;
+}
+.topFooter{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+.companyName{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+}
+.logo{
+    width: 100px;
+    border-radius: 50%;
+
+}
+.companyTitle{
+    color: #06b6d4;
+    font-weight: 600;
+}
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.footerLinks a{
+    color: white;
+    text-decoration: underline;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+.footerLinks a:hover{
+    color: #7c3aed;
+    transform: translateX(8px) scale(1.05); 
+    cursor: pointer;
+}
+.bottomFooter{
+    margin-top: 8px;
+}
+.copyRight{
+    width: 100%;
+}
+.copyRight p{
+    margin: 0;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,93 @@
+.formContainer{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    margin-top: 30px;
+    align-items: center;
+    gap: 10px;
+    margin: 30px auto;
+    max-width: 900px;
+    margin-bottom: 9rem;
+    margin-top: 4rem;
+    
+}
+.imageContainer img{
+    width: 300px;
+    height: auto;
+    border-radius: 2rem;
+
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header h2{
+    color: #660eff;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.form input{
+    outline: none;
+    width: 60%;
+    padding: 16px 20px;
+    border-radius: 2rem;
+
+
+}
+.form input::placeholder{
+    color: grey;
+    font-style: italic;
+}
+.form input:active{
+    box-shadow: 0 2px 10px #660eff;
+}
+.signUp{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.signUp h5{
+    font-weight: 450;
+    
+}
+.button{
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 13px 10px;
+    border-radius: 2rem;
+    color: white;
+    background-color: #660eff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+.button:hover {
+    background-color: blue;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 14, 255, 0.3);
+}
+
+.button:active {
+    transform: translateY(0);
+    background-color: #4d09b8;
+}
+
+.button:focus {
+    box-shadow: 0 0 0 3px rgba(102, 14, 255, 0.2);
+}
+.error{
+    display: block;
+    color: red;
+    font-style: italic;
+}

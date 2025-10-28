@@ -1,0 +1,57 @@
+.addTicket{
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.header{
+    font-weight: 600;
+    color: blue;
+}
+.add form{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.add input{
+    outline: none;
+    padding: 16px 20px;
+    border-radius: 2rem;
+}
+.add input:active{
+    box-shadow: 0 2px 10px #660eff;
+}
+.add textarea{
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+button{
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 2rem;
+    color: white;
+    background-color: #660eff;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: blue;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 14, 255, 0.3);
+}
+.errorInput {
+    border-color: #ef4444 !important;
+}
+
+.errorMessage {
+    color: #ef4444;
+    font-size: 0.875rem;
+}

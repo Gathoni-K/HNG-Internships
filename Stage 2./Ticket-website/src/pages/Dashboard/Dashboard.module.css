@@ -1,0 +1,55 @@
+.ticketsContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.button{
+    outline: none;
+    padding: 13px 20px;
+    border-radius: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    background-color: #660eff;
+    color: white;
+}
+.button:hover{
+    background-color: blue;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 14, 255, 0.3);
+}
+.button:active{
+    transform: translateY(0);
+    background-color: #4d09b8;
+}
+.logoutContainer{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-right: 3rem;
+}
+.logout{
+    outline: none;
+    padding: 13px 20px;
+    border-radius: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    background-color: #660eff;
+    color: white;
+}
+.logout:hover{
+    background-color: blue;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 14, 255, 0.3);
+}
+.logout:active{
+    transform: translateY(0);
+    background-color: #4d09b8;
+}

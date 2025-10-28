@@ -1,0 +1,97 @@
+.formContainer {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin: 30px auto; 
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    min-height: 500px;
+}
+.leftSide {
+    position: relative;
+     /* Creates a container for absolute positioning */
+    width: 100%; 
+    /* Takes full width of grid column */
+    height: 100%; 
+    /* Takes full height of parent */
+}
+
+.leftSide img {
+    width: 100%; 
+    height: 100%;
+    border-radius: 2rem;
+    object-fit: cover; 
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.signUp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.heading h2{
+    color:  #660eff;
+    font-weight: 700;
+    font-size: 50px;
+}
+.heading h3{
+    color: blue;
+}
+.signUp input{
+    width: 50%;
+    padding: 10px 32px;
+    outline: none;
+    border-radius: 2rem;
+}
+.signUp input::placeholder{
+    color: grey;
+    font-style: italic;
+}
+.signUp input:active{
+    box-shadow: 0 2px 10px #660eff;
+}
+.button{
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 13px 10px;
+    border-radius: 2rem;
+    color: white;
+    background-color: #660eff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    font-size: 1rem;
+}
+.button:hover{
+    background-color: blue;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 14, 255, 0.3);
+}
+.button:active{
+    transform: translateY(0);
+    background-color: #4d09b8;
+}
+.error{
+    display: block;
+    color: red;
+    font-style: italic;
+}

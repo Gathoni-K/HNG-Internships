@@ -1,0 +1,17 @@
+.navBar{
+    background-color: #6697ff;
+    padding: 14px;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.logo{
+    width: 100px;
+    border-radius: 50%;
+}
+.companyName{
+    color: #660eff;
+}

@@ -1,0 +1,16 @@
+.closedTickets{
+    background-color: white;
+    border-radius: 2rem;
+    height: auto;
+    width: 90%;
+    padding: 14px;
+}
+.header{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.closedCircle{
+    color: rgb(65, 65, 65);
+}

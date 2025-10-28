@@ -1,0 +1,8 @@
+.ticketsDisplay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    padding-left: 20px;
+}

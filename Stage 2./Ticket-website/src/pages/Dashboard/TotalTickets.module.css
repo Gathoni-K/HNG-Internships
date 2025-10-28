@@ -1,0 +1,22 @@
+.totalTickets{
+    background-color: white;
+    margin: 30px auto;
+    margin-top: 4rem;
+    width: 40%;
+    padding: 20px;
+    border-radius: 2rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.totalTickets h3{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.totalTickets p{
+    display: flex;
+    justify-content: flex-end;
+}
